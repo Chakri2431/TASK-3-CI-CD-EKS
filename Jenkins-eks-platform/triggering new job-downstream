@@ -1,0 +1,4 @@
+*stage('Trigger Other Project') {
+            steps {
+                build job: 'Deploying microservices'
+            }
