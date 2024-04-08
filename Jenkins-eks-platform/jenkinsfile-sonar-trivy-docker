@@ -15,7 +15,7 @@ pipeline {
         
         stage('Git Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'git-creds', url: 'https://github.com/TechITFactoryb01/online-boutique-microservices-code.git'
+                git branch: 'main', credentialsId: 'git-creds', url: 'https://github.com/Chakri2431/TASK-3-CI-CD-EKS.git'
             }
         }
         
