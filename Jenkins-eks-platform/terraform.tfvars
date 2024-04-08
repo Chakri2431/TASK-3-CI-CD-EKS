@@ -1,12 +1,12 @@
 vpc_cidr = "10.0.0.0/16"
 
-availability_zones = [ "ap-south-1a", "ap-south-1b", "ap-south-1c" ]
+availability_zones = [ "us-east-1a", "us-east-1b", "us-east-1c" ]
 
 cidr_pub_subnet = ["10.0.101.0/24", "10.0.102.0/24"]
 
 env_name = "dev"
 
-provider_region = "ap-south-1"
+provider_region = "us-east-1"
 
 vpc_tag_name = "eks-vpc"
 
@@ -28,11 +28,11 @@ endpoint_public_access = true
 
 public_access_cidrs = ["0.0.0.0/0"]
 
-scaling_desired_size = 2
+scaling_desired_size = 3
 
-scaling_max_size = 3
+scaling_max_size = 4
 
-scaling_min_size = 1
+scaling_min_size = 2
 
 instance_types = ["t2.medium"]
 
